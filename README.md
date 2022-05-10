@@ -10,7 +10,7 @@
       👉 npm install react-native-svg --save                                                                                   
       👉 npm install react-native-svg-transformer --save                                                                                   
 config
-            🎊 metro.config.js 
+            🎊 metro.config.js                                                                                    
             ++++++++++++++++++++++++++++++++++
             
 
