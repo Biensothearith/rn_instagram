@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NAV_TYPES} from '../navTypes';
-import screenLogin from '../../Containers/LoginContainer';
+import screenLogin from '../../containers/LoginContainer';
 
 const IntroNavigation = createStackNavigator();
 

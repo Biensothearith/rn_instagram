@@ -1,6 +1,6 @@
 import { all } from "redux-saga/effects";
-import {appSaga} from "../Modules/app";
-import {homeSaga} from "../Modules/home"
+import {appSaga} from "../modules/app";
+import {homeSaga} from "../modules/home"
 
 const sagas = [
   appSaga(),

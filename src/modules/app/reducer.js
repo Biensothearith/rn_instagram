@@ -1,5 +1,5 @@
-import { error, success,abort } from "@redux-requests/core";
-
+import {error, success, abort} from '@redux-requests/core';
+import {colors} from '../../assets';
 
 export const SET_APP_LOCALE = 'SET_APP_LOCALE';
 export const SET_NETWORK_STATUS = 'SET_NETWORK_STATUS';
@@ -19,6 +19,7 @@ export const startupWorker = () => ({
 
 const initialState = {
   locale: 'en',
+  colors: {...colors},
 };
 
 const reducer = (state = initialState, action) => {

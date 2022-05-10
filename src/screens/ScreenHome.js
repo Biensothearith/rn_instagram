@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, TouchableOpacity} from 'react-native';
-import NavigationService from '../Service/navigationService';
-import {NAV_TYPES} from '../Navigation/navTypes';
+import NavigationService from '../service/navigationService';
+import {NAV_TYPES} from '../navigation/navTypes';
 export default class Home extends Component {
   constructor(prop) {
     super(prop);
