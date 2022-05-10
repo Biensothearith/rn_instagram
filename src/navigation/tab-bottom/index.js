@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NAV_TYPES} from '../navTypes';
 
-import HomeContainer from '../../Containers/HomeContainer';
-import LoginContainer from '../../Containers/LoginContainer';
+import HomeContainer from '../../containers/HomeContainer';
+import LoginContainer from '../../containers/LoginContainer';
 
 const TabBottom = createBottomTabNavigator();
 

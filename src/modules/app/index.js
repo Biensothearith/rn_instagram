@@ -1,5 +1,5 @@
 import {takeLatest, put, call} from 'redux-saga/effects';
-import {APP_INIT} from '../../Store';
+import {APP_INIT} from '../../store';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axiosDefault from 'axios';
 import NavigationService from '../../service/navigationService';
@@ -30,6 +30,7 @@ axios.interceptors.response.use(
 );
 
 function* startupWorker() {
+  console.log('--heekeeeee');
   var authDataString = yield AsyncStorage.getItem('@DataLogin');
   const authData = yield JSON.parse(authDataString);
   if (authDataString && authData.token) {

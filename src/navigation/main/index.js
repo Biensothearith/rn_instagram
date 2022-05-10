@@ -3,7 +3,7 @@ import {View, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NAV_TYPES} from '../navTypes';
 
-import StartUp from '../../Containers/StartUpContainer';
+import StartUp from '../../containers/StartUpContainer';
 import CORE from '../core';
 import Intro from '../intro';
 
