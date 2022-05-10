@@ -9,7 +9,7 @@
 ✅ Add SVG 
       👉 npm install react-native-svg --save
       👉 npm install react-native-svg-transformer --save
-      config
+config
             🎊 metro.config.js 
             ++++++++++++++++++++++++++++++++++
             
