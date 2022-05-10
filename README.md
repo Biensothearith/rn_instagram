@@ -11,7 +11,8 @@
       👉 npm install react-native-svg-transformer --save
       config
             🎊 metro.config.js 
-            ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            ++++++++++++++++++++++++++++++++++
+
             const { getDefaultConfig } = require("metro-config");
             module.exports = (async () => { 
                   const {  
@@ -29,5 +30,6 @@
                               sourceExts: [...sourceExts, "svg"]    
                         }};
             })();
-            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            ++++++++++++++++++++++++++++++++++
 
