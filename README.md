@@ -1,14 +1,14 @@
-✅ WEBSITE PNG
+✅ WEBSITE PNG                                                                                   
 📌📌📌 https://www.cleanpng.com/
 
 
-✅ CONVERT PNG TO SVG 
+✅ CONVERT PNG TO SVG                                                                                    
 📌📌📌 https://convertio.co/
 
 
 ✅ Add SVG 
-      👉 npm install react-native-svg --save
-      👉 npm install react-native-svg-transformer --save
+      👉 npm install react-native-svg --save                                                                                   
+      👉 npm install react-native-svg-transformer --save                                                                                   
 config
             🎊 metro.config.js 
             ++++++++++++++++++++++++++++++++++
